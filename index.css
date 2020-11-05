@@ -2,7 +2,7 @@
 body {
   font-size: 15px;
   font-family: "Spartan", sans-serif;
-  background-color: hsl(303, 10%, 53%);
+  background-color: white;
 }
 
 ul {
@@ -39,14 +39,6 @@ li {
 /* circeling image */
 .circle {
   border-radius: 100%;
-}
-.container {
-  padding: 20px 20px;
-  max-width: 1600px;
-  min-width: 200px;
-  margin: 100px auto;
-  background-color: white;
-  border-radius: 50px;
 }
 
 h1 {
@@ -115,9 +107,10 @@ section > div {
 }
 
 /* desktop */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 769px) {
   .container {
-    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1440px;
   }
   section {
     display: flex;
