@@ -1,3 +1,5 @@
+# [Preview on htmlpreview.github.io](https://htmlpreview.github.io/?https://github.com/alfahmist/Social-proof-section/blob/master/index.html)
+
 # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
