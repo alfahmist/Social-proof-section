@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
+  <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Social proof section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,6 +15,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      margin-top: 100px;
     }
 
     .attribution a {
@@ -24,97 +25,116 @@
 </head>
 
 <body>
-  <!-- Section 1 -->
-  <section>
-    <h1>10,000+ of our users love our products.</h1>
-    <p>We only provide great products combined with excellent customer service.See what our satisfied customers are
-      saying
-      about our services.
-    </p>
-    <ul>
-      <li>
-        <div class="stars">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-        </div>
-        Rated 5 Stars in Reviews
-      </li>
-      <li>
-        <div class="stars">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-        </div>
-        Rated 5 Stars in Report Guru
-      </li>
-      <li>
-        <div class="stars">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-          <img src="images/icon-star.svg" alt="Kiwi standing on oval">
-        </div>
-        Rated 5 Stars in BestTech
-      </li>
-    </ul>
+  <div class="container">
+    <!-- Section 1 -->
+    <section>
+      <div class="left">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>We only provide great products combined with excellent customer service.See what our satisfied customers are
+          saying
+          about our services.
+        </p>
+      </div>
+      <div class="right">
+        <ul>
+          <li class="rate">
+            <div class="stars">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+            </div>
+            Rated 5 Stars in Reviews
+          </li>
+          <li class="rate">
+            <div class="stars">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+            </div>
+            Rated 5 Stars in Report Guru
+          </li>
+          <li class="rate">
+            <div class="stars">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+              <img src="images/icon-star.svg" alt="Kiwi standing on oval">
+            </div>
+            Rated 5 Stars in BestTech
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  </section>
+    <!-- section 2 -->
+    <section>
+      <div class="box">
+        <div class="box-head">
+          <div class="head-pic">
+            <img src="images/image-colton.jpg" alt="colton" class="circle">
+          </div>
+          <div class="head-content">
+            <h4>Colton Smith</h4>
+            <h4 class="verified">Verified Buyer </h4>
+          </div>
+        </div>
+        <div class="box-body">
+          <p>
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <div class="head-pic">
+            <img src="images/image-irene.jpg" alt="irene" class="circle">
+          </div>
+          <div class="head-content">
+            <h4>Irene Roberts</h4>
+            <h4 class="verified">Verified Buyer </h4>
+          </div>
+        </div>
+        <div class="box-body">
+          <p>
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <div class="head-pic">
+            <img src="images/image-anne.jpg" alt="anne" class="circle">
+          </div>
+          <div class="head-content">
+            <h4>I Anne Wallace</h4>
+            <h4 class="verified">Verified Buyer</h4>
+          </div>
+        </div>
+        <div class="box-body">
+          <p>
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <!-- section 2 -->
-  <section>
-    <div class="box">
-      <div class="box-header">
-        <img src="images/image-colton.jpg" alt="colton">
-        <h5>Colton Smith</h5>
-        <h5>Verified Buyer </h5>
-      </div>
-      <div class="box-body">
-        <p>
-          "We needed the same printed design as the one we had ordered a week prior.
-          Not only did they find the original order, but we also received it in time.
-          Excellent!"
-        </p>
-      </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="https://github.com/alfahmist/">Your
+        alfahmist</a>.
     </div>
-    <div class="box">
-      <div class="box-header">
-        <img src="images/image-irene.jpg" alt="colton">
-        <h5>Irene Roberts</h5>
-        <h5>Verified Buyer </h5>
-      </div>
-      <div class="box-body">
-        <p>
-          "Customer service is always excellent and very quick turn around. Completely
-          delighted with the simplicity of the purchase and the speed of delivery."
-        </p>
-      </div>
-    </div>
-    <div class="box">
-      <div class="box-header">
-        <img src="images/image-anne.jpg" alt="colton">
-        <h5>I Anne Wallace</h5>
-        <h5>Verified Buyer</h5>
-      </div>
-      <div class="box-body">
-        <p>
-          "Put an order with this company and can only praise them for the very high
-          standard. Will definitely use them again and recommend them to everyone!"
-        </p>
-      </div>
-    </div>
-  </section>
-  <div class="attribution">
-    Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-      href="https://github.com/alfahmist/">Your
-      fahmi</a>.
-  </div>
 </body>
+</div>
 
 </html>
