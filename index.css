@@ -28,6 +28,7 @@ li {
   min-width: 100px;
   max-width: 600px;
   margin-bottom: 20px;
+  color: hsl(300, 43%, 22%);
 }
 
 /* grouping star image */
