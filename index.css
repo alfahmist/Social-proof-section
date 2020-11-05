@@ -1,3 +1,10 @@
+/* Mobile */
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  background-color: hsl(303, 10%, 53%);
+}
+
 ul {
   padding: 0;
 }
@@ -5,7 +12,7 @@ ul {
 li {
   list-style: none;
 }
-
+/* class for li */
 .rate {
   display: flex;
   flex-direction: column;
@@ -19,20 +26,17 @@ li {
   margin-bottom: 20px;
 }
 
+/* grouping star image */
 .stars {
   margin-right: 30px;
   margin-bottom: 10;
 }
-body {
-  font-size: 15px;
-  font-family: "Spartan", sans-serif;
-  background-color: hsl(303, 10%, 53%);
-}
-
+/* verified text color */
 .verified {
   color: hsl(303, 10%, 53%);
 }
 
+/* circeling image */
 .circle {
   border-radius: 100%;
 }
@@ -50,15 +54,19 @@ h1 {
   font-size: 2.3rem;
   margin-top: 0;
 }
+
 /* Section */
 section {
   display: flex;
   flex-direction: column;
 }
 
+/* spacing each div */
 section > div {
   margin: 20px;
 }
+
+/* p inside class left */
 .left p {
   color: hsl(303, 10%, 53%);
   line-height: 1.6em;
@@ -66,6 +74,7 @@ section > div {
   font-size: 1rem;
 }
 
+/* box design */
 .box {
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
@@ -74,6 +83,7 @@ section > div {
   font-weight: 500;
 }
 
+/* box position */
 .box:nth-child(2) {
   margin-top: 30px;
   margin-bottom: -30px;
@@ -83,6 +93,7 @@ section > div {
   margin-top: 60px;
   margin-bottom: -60px;
 }
+
 .box-head {
   display: flex;
   flex-direction: column;
@@ -103,6 +114,7 @@ section > div {
   line-height: 1.6em;
 }
 
+/* desktop */
 @media screen and (min-width: 800px) {
   .container {
     padding-top: 100px;
